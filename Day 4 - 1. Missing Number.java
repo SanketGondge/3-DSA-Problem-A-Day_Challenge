@@ -38,7 +38,9 @@ public class Solution {
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
-
+        int a = sc.nextInt();
+        System.out.printlm("enter the number a")
+            
         int N = sc.nextInt();
         int a[] = new int[N];
 
@@ -49,4 +51,5 @@ public class Solution {
 
         System.out.println(missingNumber(a, N));
     }
+
 }
